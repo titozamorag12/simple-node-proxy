@@ -12,7 +12,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: gzamorasosa12/simple-node
+      - image: gzamorasosa12/simple-node-proxy
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
